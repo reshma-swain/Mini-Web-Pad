@@ -3,7 +3,7 @@ User can write notes,list and important information in this Mini-Note-Pad web ve
 
 # TECHNOLOGY USED:
 - HTML
-- CSS
+- CSS ( using flex as well )
 - JavaScript
 
 # DEMO: 
