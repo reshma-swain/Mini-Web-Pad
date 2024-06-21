@@ -1,0 +1,81 @@
+body {
+  padding: 20px;
+  background-color: #333;
+  background-image: url(Bear-2.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px; 
+}
+body{
+  display:flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.content {
+  flex: 1;
+} 
+
+.title {
+  text-align: center;
+  color: #3a3953;
+  font-family:cursive;
+  margin-bottom: 20px;
+}
+
+
+#space {
+  width: 100%;
+  height: 100%; /* Adjust height as needed */
+  /* Add content inside this element to fill the footer */
+}
+
+
+.demo {
+  background: rgb(210, 235, 110);
+  color: black;
+  outline: none;
+  border: 0px;
+  box-shadow: 2px 2px 10px #555;
+  margin: 0px;
+  padding-top: 30px !important;
+  padding: 6px;
+  font-family: Helvetica;
+}
+
+.div {
+  display: inline-flex;
+  margin: 6px 8px 6px 8px;
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  background: #a1ae11;
+  font-weight: 600;
+  padding: 2px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #333;
+}
+
+ button.close {
+  border-radius: 50px;
+  background: #455e43;
+  color: #e6e9eb;
+  border: 2px solid #39464e;
+  cursor: pointer;
+  outline: 0px;
+  padding: 9px 4px;
+  line-height: 0;
+  opacity: 1;
+  font-weight: 400;
+  text-shadow: none;
+  font-size: 15px;
+} 
+
+.close:focus, .close:hover {
+  background: #dc4141;
+  border: 2px solid #dc4141;
+  opacity: 1;
